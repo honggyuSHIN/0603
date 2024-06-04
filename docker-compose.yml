@@ -24,7 +24,7 @@ services:
     ports:
       - "80:80"
 
-       - "443:443" # 이 부분
+      - "443:443" # 이 부분
     depends_on:
       - web
     networks:
@@ -43,4 +43,3 @@ networks:
   server:
 
   # dockercompose는 이미지 만든 것을 한번에 실행시키는 파일
-  
